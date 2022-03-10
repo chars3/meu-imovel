@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?x87lc0');
+  src:  url('fonts/icomoon.eot?x87lc0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?x87lc0') format('truetype'),
+    url('fonts/icomoon.woff?x87lc0') format('woff'),
+    url('fonts/icomoon.svg?x87lc0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bars:before {
+  content: "\e905";
+}
+.icon-navicon:before {
+  content: "\e905";
+}
+.icon-reorder:before {
+  content: "\e905";
+}
+.icon-x:before {
+  content: "\e906";
+}
+.icon-cancel:before {
+  content: "\e906";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-phone-solid:before {
+  content: "\e900";
+}
+.icon-envelope-solid:before {
+  content: "\e901";
+}
+.icon-instagram-square-brands:before {
+  content: "\e902";
+}
+.icon-facebook-square-brands:before {
+  content: "\e903";
+}
+.icon-location-dot-solid:before {
+  content: "\e904";
+}
