@@ -28,3 +28,16 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
+
+const swiper = new Swiper('.swiper', {
+  slidesPreview: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  keyboard: true,
+  spaceBetween: 50,
+  speed: 400
+  // autoplay: {
+  //   delay: 4000
+  // }
+})
