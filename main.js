@@ -29,6 +29,7 @@ window.addEventListener('scroll', function () {
   }
 })
 
+//slider swiper
 const swiper = new Swiper('.swiper', {
   slidesPreview: 1,
   pagination: {
@@ -41,3 +42,12 @@ const swiper = new Swiper('.swiper', {
   //   delay: 4000
   // }
 })
+
+// Scroll Reveal
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '30px',
+  duration: 700
+})
+
+scrollReveal.reveal(`#home, #propertie, #about, #contact`, { interval: 100 })
